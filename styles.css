@@ -14,11 +14,26 @@ font-size: 35px;
 
 
 
-/*   creating a css id */
+/* Default styles */
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
 
+/* Styles for screens smaller than 768px (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
 
-img:hover{
-    border: 10px solid red;
+/* Styles for screens smaller than 480px (e.g., phones) */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 10px auto;
+  }
 }
 
 
