@@ -7,37 +7,11 @@ font-size: 35px;
 }
 
 
-.red-text{
-    color:black;
+
+/* setting grid containers */
+body{
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: repeat(auto-fit,);
+
 }
-
-
-
-
-/* Default styles */
-.container {
-  width: 80%;
-  margin: 40px auto;
-}
-
-/* Styles for screens smaller than 768px (e.g., tablets) */
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 90%;
-    margin: 20px auto;
-  }
-}
-
-/* Styles for screens smaller than 480px (e.g., phones) */
-@media only screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-    margin: 10px auto;
-  }
-}
-
-
-
-
-
-
